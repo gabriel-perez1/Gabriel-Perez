@@ -11,23 +11,22 @@ body {
 }
 
 header {
-	padding: 15px 25px;
+	padding: 20px 25px;
 	background-color: #6495ed;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	top: 0;
+	z-index: 9999;
+	text-decoration: none;
+	color: black;
 }
 
-section {
-	padding: 50px;
-}
 
 header h1 {
 	font-weight: bold;
 	font-size: 38px;
 	color: black;
-	margin: 0;
 }
 
 header a, header h2 {
@@ -72,9 +71,19 @@ header nav ul li a {
 }
 
 .hero-text h2 {
-	font-size: 40px;
+	font-size: 48px;
 }
 
 .hero-text p {
-	font-size: 30px;
+	font-size: 35px;
 }
+
+.section-title {
+	font-size: 45px;
+	border-bottom: 5px solid;
+	color: black;
+	text-align: center;
+	margin: 10px 25px auto;
+	width: 12%;
+}
+

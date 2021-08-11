@@ -5,7 +5,6 @@
 }
 
 body {
-	color: #6495ed;
 	font-family:'Times New Roman', Times, serif;
 	size: 100%;
 }
@@ -78,12 +77,34 @@ header nav ul li a {
 	font-size: 35px;
 }
 
+.flex-column {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
 .section-title {
 	font-size: 45px;
 	border-bottom: 5px solid;
 	color: black;
 	text-align: center;
-	margin: 10px 25px auto;
+	margin: auto;
 	width: 12%;
 }
 
+.section-info {
+	width: 45%;
+	margin: auto;
+	display: flex;
+	flex: 0 0 100%;
+	background: grey;
+	color: white;
+}
+
+.bio img {
+	float: left;
+	width: 100px;
+	padding: 10px;
+}
